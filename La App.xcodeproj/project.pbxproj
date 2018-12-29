@@ -14,6 +14,31 @@
 		B202B77C21CD732B00B86260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B202B77B21CD732B00B86260 /* Assets.xcassets */; };
 		B202B77F21CD732B00B86260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B202B77D21CD732B00B86260 /* LaunchScreen.storyboard */; };
 		B202B78A21CD732B00B86260 /* La_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B78921CD732B00B86260 /* La_AppTests.swift */; };
+		B202B79A21CD74F100B86260 /* CMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B79921CD74F100B86260 /* CMain.swift */; };
+		B202B79D21CD754C00B86260 /* CMainControllerInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B79C21CD754C00B86260 /* CMainControllerInteraction.swift */; };
+		B202B79F21CD756600B86260 /* CMainControllerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B79E21CD756600B86260 /* CMainControllerTransition.swift */; };
+		B202B7A121CD758600B86260 /* CMainControllerTransitionPresent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7A021CD758600B86260 /* CMainControllerTransitionPresent.swift */; };
+		B202B7A321CD75A900B86260 /* CMainControllerTransitionPushRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7A221CD75A900B86260 /* CMainControllerTransitionPushRight.swift */; };
+		B202B7A521CD75C400B86260 /* CMainControllerTransitionReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7A421CD75C400B86260 /* CMainControllerTransitionReplace.swift */; };
+		B202B7A721CD75EE00B86260 /* VMainShade.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7A621CD75EE00B86260 /* VMainShade.swift */; };
+		B202B7A921CD761D00B86260 /* ExtensionCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7A821CD761D00B86260 /* ExtensionCollectionView.swift */; };
+		B202B7AB21CD764600B86260 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7AA21CD764600B86260 /* ExtensionViewController.swift */; };
+		B202B7AD21CD76DF00B86260 /* CWelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7AC21CD76DF00B86260 /* CWelcomeController.swift */; };
+		B202B7AF21CD78E100B86260 /* VWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7AE21CD78E100B86260 /* VWelcomeView.swift */; };
+		B202B7B121CD798600B86260 /* MWelcomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7B021CD798600B86260 /* MWelcomeModel.swift */; };
+		B202B7B321CD7E0700B86260 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B202B7B221CD7E0700B86260 /* Localizable.strings */; };
+		B202B7B521CDFC9000B86260 /* VWelcomeBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7B421CDFC9000B86260 /* VWelcomeBarView.swift */; };
+		B202B7B721CE002000B86260 /* VWelcomeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7B621CE002000B86260 /* VWelcomeCellView.swift */; };
+		B202B7B921CE04C600B86260 /* CDBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B202B7B821CE04C600B86260 /* CDBaseController.swift */; };
+		B28BB17E21D7BDD7001BDC87 /* MWelcomeModelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB17D21D7BDD7001BDC87 /* MWelcomeModelItem.swift */; };
+		B28BB18021D7BE7B001BDC87 /* MWelcomeModelSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB17F21D7BE7B001BDC87 /* MWelcomeModelSection.swift */; };
+		B28BB18221D7BF6B001BDC87 /* MWelcomeModelSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB18121D7BF6B001BDC87 /* MWelcomeModelSectionHeader.swift */; };
+		B28BB18421D7BF77001BDC87 /* MWelcomeModelSectionCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB18321D7BF77001BDC87 /* MWelcomeModelSectionCommon.swift */; };
+		B28BB18621D7BFF0001BDC87 /* VWelcomeHeaderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB18521D7BFF0001BDC87 /* VWelcomeHeaderCellView.swift */; };
+		B28BB18821D7CBF9001BDC87 /* VWelcomeBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB18721D7CBF9001BDC87 /* VWelcomeBaseCell.swift */; };
+		B28BB18A21D7F30F001BDC87 /* VFullContactInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB18921D7F30F001BDC87 /* VFullContactInfoView.swift */; };
+		B28BB18C21D7F32A001BDC87 /* CFullContactInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB18B21D7F32A001BDC87 /* CFullContactInfoController.swift */; };
+		B28BB18F21D7F46E001BDC87 /* VFullContactInfoBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28BB18E21D7F46E001BDC87 /* VFullContactInfoBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +63,31 @@
 		B202B78521CD732B00B86260 /* La AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "La AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B202B78921CD732B00B86260 /* La_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = La_AppTests.swift; sourceTree = "<group>"; };
 		B202B78B21CD732B00B86260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B202B79921CD74F100B86260 /* CMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMain.swift; sourceTree = "<group>"; };
+		B202B79C21CD754C00B86260 /* CMainControllerInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMainControllerInteraction.swift; sourceTree = "<group>"; };
+		B202B79E21CD756600B86260 /* CMainControllerTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMainControllerTransition.swift; sourceTree = "<group>"; };
+		B202B7A021CD758600B86260 /* CMainControllerTransitionPresent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMainControllerTransitionPresent.swift; sourceTree = "<group>"; };
+		B202B7A221CD75A900B86260 /* CMainControllerTransitionPushRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMainControllerTransitionPushRight.swift; sourceTree = "<group>"; };
+		B202B7A421CD75C400B86260 /* CMainControllerTransitionReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMainControllerTransitionReplace.swift; sourceTree = "<group>"; };
+		B202B7A621CD75EE00B86260 /* VMainShade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMainShade.swift; sourceTree = "<group>"; };
+		B202B7A821CD761D00B86260 /* ExtensionCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCollectionView.swift; sourceTree = "<group>"; };
+		B202B7AA21CD764600B86260 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		B202B7AC21CD76DF00B86260 /* CWelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWelcomeController.swift; sourceTree = "<group>"; };
+		B202B7AE21CD78E100B86260 /* VWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWelcomeView.swift; sourceTree = "<group>"; };
+		B202B7B021CD798600B86260 /* MWelcomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWelcomeModel.swift; sourceTree = "<group>"; };
+		B202B7B221CD7E0700B86260 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		B202B7B421CDFC9000B86260 /* VWelcomeBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWelcomeBarView.swift; sourceTree = "<group>"; };
+		B202B7B621CE002000B86260 /* VWelcomeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWelcomeCellView.swift; sourceTree = "<group>"; };
+		B202B7B821CE04C600B86260 /* CDBaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDBaseController.swift; sourceTree = "<group>"; };
+		B28BB17D21D7BDD7001BDC87 /* MWelcomeModelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWelcomeModelItem.swift; sourceTree = "<group>"; };
+		B28BB17F21D7BE7B001BDC87 /* MWelcomeModelSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWelcomeModelSection.swift; sourceTree = "<group>"; };
+		B28BB18121D7BF6B001BDC87 /* MWelcomeModelSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWelcomeModelSectionHeader.swift; sourceTree = "<group>"; };
+		B28BB18321D7BF77001BDC87 /* MWelcomeModelSectionCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MWelcomeModelSectionCommon.swift; sourceTree = "<group>"; };
+		B28BB18521D7BFF0001BDC87 /* VWelcomeHeaderCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWelcomeHeaderCellView.swift; sourceTree = "<group>"; };
+		B28BB18721D7CBF9001BDC87 /* VWelcomeBaseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VWelcomeBaseCell.swift; sourceTree = "<group>"; };
+		B28BB18921D7F30F001BDC87 /* VFullContactInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFullContactInfoView.swift; sourceTree = "<group>"; };
+		B28BB18B21D7F32A001BDC87 /* CFullContactInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFullContactInfoController.swift; sourceTree = "<group>"; };
+		B28BB18E21D7F46E001BDC87 /* VFullContactInfoBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFullContactInfoBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +130,12 @@
 			isa = PBXGroup;
 			children = (
 				B202B77121CD732900B86260 /* AppDelegate.swift */,
+				B202B79B21CD751800B86260 /* Transitions */,
+				B202B79821CD74D400B86260 /* Helpers */,
+				B202B79721CD74C300B86260 /* Extensions */,
+				B202B79621CD74B200B86260 /* Models */,
+				B202B79521CD74A600B86260 /* Views */,
+				B202B79421CD747700B86260 /* Controllers */,
 				B202B77321CD732900B86260 /* ViewController.swift */,
 				B202B77521CD732900B86260 /* Main.storyboard */,
 				B202B77B21CD732B00B86260 /* Assets.xcassets */,
@@ -97,6 +153,89 @@
 				B202B78B21CD732B00B86260 /* Info.plist */,
 			);
 			path = "La AppTests";
+			sourceTree = "<group>";
+		};
+		B202B79421CD747700B86260 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B202B79921CD74F100B86260 /* CMain.swift */,
+				B202B7AC21CD76DF00B86260 /* CWelcomeController.swift */,
+				B28BB18B21D7F32A001BDC87 /* CFullContactInfoController.swift */,
+				B202B7B821CE04C600B86260 /* CDBaseController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B202B79521CD74A600B86260 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B28BB18D21D7F43E001BDC87 /* welcome */,
+				B28BB19021D7FBAB001BDC87 /* fullContactInfo */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B202B79621CD74B200B86260 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B202B7B021CD798600B86260 /* MWelcomeModel.swift */,
+				B28BB17D21D7BDD7001BDC87 /* MWelcomeModelItem.swift */,
+				B28BB17F21D7BE7B001BDC87 /* MWelcomeModelSection.swift */,
+				B28BB18121D7BF6B001BDC87 /* MWelcomeModelSectionHeader.swift */,
+				B28BB18321D7BF77001BDC87 /* MWelcomeModelSectionCommon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B202B79721CD74C300B86260 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B202B7A821CD761D00B86260 /* ExtensionCollectionView.swift */,
+				B202B7AA21CD764600B86260 /* ExtensionViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B202B79821CD74D400B86260 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B202B7A621CD75EE00B86260 /* VMainShade.swift */,
+				B202B7B221CD7E0700B86260 /* Localizable.strings */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B202B79B21CD751800B86260 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				B202B79C21CD754C00B86260 /* CMainControllerInteraction.swift */,
+				B202B79E21CD756600B86260 /* CMainControllerTransition.swift */,
+				B202B7A021CD758600B86260 /* CMainControllerTransitionPresent.swift */,
+				B202B7A221CD75A900B86260 /* CMainControllerTransitionPushRight.swift */,
+				B202B7A421CD75C400B86260 /* CMainControllerTransitionReplace.swift */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		B28BB18D21D7F43E001BDC87 /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+				B202B7AE21CD78E100B86260 /* VWelcomeView.swift */,
+				B202B7B421CDFC9000B86260 /* VWelcomeBarView.swift */,
+				B202B7B621CE002000B86260 /* VWelcomeCellView.swift */,
+				B28BB18521D7BFF0001BDC87 /* VWelcomeHeaderCellView.swift */,
+				B28BB18721D7CBF9001BDC87 /* VWelcomeBaseCell.swift */,
+			);
+			path = welcome;
+			sourceTree = "<group>";
+		};
+		B28BB19021D7FBAB001BDC87 /* fullContactInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B28BB18921D7F30F001BDC87 /* VFullContactInfoView.swift */,
+				B28BB18E21D7F46E001BDC87 /* VFullContactInfoBarView.swift */,
+			);
+			path = fullContactInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B202B77F21CD732B00B86260 /* LaunchScreen.storyboard in Resources */,
+				B202B7B321CD7E0700B86260 /* Localizable.strings in Resources */,
 				B202B77C21CD732B00B86260 /* Assets.xcassets in Resources */,
 				B202B77721CD732900B86260 /* Main.storyboard in Resources */,
 			);
@@ -200,9 +340,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B202B7A521CD75C400B86260 /* CMainControllerTransitionReplace.swift in Sources */,
+				B202B7A321CD75A900B86260 /* CMainControllerTransitionPushRight.swift in Sources */,
+				B202B7B521CDFC9000B86260 /* VWelcomeBarView.swift in Sources */,
+				B202B7AD21CD76DF00B86260 /* CWelcomeController.swift in Sources */,
 				B202B77421CD732900B86260 /* ViewController.swift in Sources */,
+				B202B7B921CE04C600B86260 /* CDBaseController.swift in Sources */,
+				B28BB18A21D7F30F001BDC87 /* VFullContactInfoView.swift in Sources */,
+				B28BB18221D7BF6B001BDC87 /* MWelcomeModelSectionHeader.swift in Sources */,
+				B202B79F21CD756600B86260 /* CMainControllerTransition.swift in Sources */,
+				B28BB18621D7BFF0001BDC87 /* VWelcomeHeaderCellView.swift in Sources */,
+				B202B7B121CD798600B86260 /* MWelcomeModel.swift in Sources */,
+				B202B7A121CD758600B86260 /* CMainControllerTransitionPresent.swift in Sources */,
+				B202B7A921CD761D00B86260 /* ExtensionCollectionView.swift in Sources */,
 				B202B77A21CD732900B86260 /* La_App.xcdatamodeld in Sources */,
+				B202B79A21CD74F100B86260 /* CMain.swift in Sources */,
+				B28BB18821D7CBF9001BDC87 /* VWelcomeBaseCell.swift in Sources */,
+				B28BB18F21D7F46E001BDC87 /* VFullContactInfoBarView.swift in Sources */,
+				B28BB18C21D7F32A001BDC87 /* CFullContactInfoController.swift in Sources */,
+				B28BB18021D7BE7B001BDC87 /* MWelcomeModelSection.swift in Sources */,
+				B202B7AB21CD764600B86260 /* ExtensionViewController.swift in Sources */,
+				B202B7B721CE002000B86260 /* VWelcomeCellView.swift in Sources */,
+				B28BB17E21D7BDD7001BDC87 /* MWelcomeModelItem.swift in Sources */,
+				B202B7A721CD75EE00B86260 /* VMainShade.swift in Sources */,
 				B202B77221CD732900B86260 /* AppDelegate.swift in Sources */,
+				B202B7AF21CD78E100B86260 /* VWelcomeView.swift in Sources */,
+				B28BB18421D7BF77001BDC87 /* MWelcomeModelSectionCommon.swift in Sources */,
+				B202B79D21CD754C00B86260 /* CMainControllerInteraction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  La App
+
+  Created by Carlos Uribe on 12/21/18.
+  Copyright © 2018 CarlosUribe. All rights reserved.
+*/
+"Error_fetching_container"="Error al obtener el contenedor";
+"VWelcomeBarView_title"="Contactos";
+"CDBaseController_Failed_Save"="Error al guardar en BD";
+"VWelcomeView_placeHolderSearch"="Buscar nombre o teléfono";
+"GenericToolbar_search"="Buscar";
+"GenericToolbar_cancel"="Cancelar";
+"VWelcomeViewMessage_alert"="Alerta";
+"VWelcomeViewMessage_configure"="Configurar";
+"VWelcomeViewMessage_configure_save_title"="Mesnaje";
+"VWelcomeViewMessage_configure_save_text"="¿Guardar como contacto conocido?";
+"VWelcomeViewMessage_configure_save_YES"="Si";
+"VWelcomeViewMessage_configure_save_NO"="No";
+"VWelcomeViewMessage_sms"="Envía un SMS/iMessage";
+"VWelcomeViewMessage_sms_compose"="Mensaje de La App";
+"VWelcomeViewMessage_sms_error"="Error al componer mensaje";
+"VWelcomeViewMessage_sms_error_contact"="Contacto sin número";
+"VWelcomeViewMessage_sms_fail"="Error al mandar SMS/iMessage";
+"VWelcomeViewMessage_sms_success"="SMS/iMessage enviado";
+"VWelcomeViewMessage_sms_cancel"="Cancelado por usuario";
+"VWelcomeViewMessage_cancel"="Cerrar";
